@@ -1,0 +1,22 @@
+Instructions:
+
+First, make sure you have the graphics library installed on your computer. You can install graphics by using the "opam install graphics" command in terminal. 
+
+If this command doesn't work, you may not have pkgconfig installed. To install this, do the following:
+
+    If you have macports, use "sudo port install pkgconfig"
+
+    If you have homebrew, use "brew install pkg-config"
+
+Also make sure you have XQuartz installed and running.
+
+Next, download the release code from our CMS submission. It is a ZIP file.
+
+Now you need to extract the ZIP file. Do this from the terminal, not from a graphical interface. Run "unzip tetrisgame.zip" from the directory containing the ZIP file. That will create a subdirectory tetrisgame with the release code. Now cd into that directory.
+
+Next, run "make build" in the terminal.
+
+After the file is successfully built, run "make" in the terminal.
+
+This should open a window that displays a welcome screen with a message and the tetris pieces that we created. You can also click on the window to view the game screen that we created.
+

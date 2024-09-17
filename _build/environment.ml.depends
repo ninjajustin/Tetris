@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+environment.ml: Array Graphics Random
+=======
+environment.ml: Array Board Glut Graphics Random Unix
+>>>>>>> 089b2d04536241f296ec085dfb1e24cceeec5ce2
